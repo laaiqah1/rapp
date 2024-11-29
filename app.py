@@ -6,8 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import precision_score, recall_score
 from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import RocCurveDisplay
-
-from sklearn.metrics import plot_precision_recall_curve
+from sklearn.metrics import PrecisionRecallDisplay
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
